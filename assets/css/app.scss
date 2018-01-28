@@ -3,4 +3,34 @@
 @import "bootstrap";
 
 .side { padding: 4ex; text-align: center; }
-h1 { text-align: center; }
+h1, h2 { text-align: center; }
+
+.card-deck .card {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 50px;
+}
+
+.card {
+	background-color: Grey;
+}
+
+.card-title {
+	text-align: center;
+	line-height: 2;
+}
+
+.matched {
+        background-color: White;
+	text-align: center;
+	line-height: 2;
+}
+
+.row {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.rightCol {
+	float: right;
+}
