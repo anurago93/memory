@@ -21,10 +21,15 @@ import "phoenix_html";
 // import socket from "./socket"
 import socket from "./socket";
 
+<<<<<<< HEAD
 import game_init from "./game";
+=======
+import run_game from "./game";
+>>>>>>> e1005e36f9678645af1b194cae4e1c8cee4c5cde
 
 function start() {
   let root = document.getElementById('game');
+<<<<<<< HEAD
   if (root) {
     let channel = socket.channel("games:" + window.gameName, {});
     game_init(root, channel);
@@ -36,3 +41,10 @@ function start() {
 }
 
 $(start);
+=======
+  run_game(root);
+}
+
+// Use jQuery to delay until page loaded.
+$(init);
+>>>>>>> e1005e36f9678645af1b194cae4e1c8cee4c5cde
